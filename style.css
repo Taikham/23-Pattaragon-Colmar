@@ -1,0 +1,65 @@
+*{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --Navigation Bar-- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 24px;
+}
+
+nav > ul {
+    display: flexs;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: dashed;
+    color:black;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-size: 1.1rem;
+}
+
+.logo-name {
+    color: hsl(0,0%,64%);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.logo-name > span {
+    font-weight: 700;
+    color: hsl(0,0%,29%);
+}
+
+.nav-link-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Mobile Navigation Bar */
+
+.mobile-nav{
+    display: none;
+}
+
+main {
+    max-width: 90rem;
+    margin: 0 auto;
+}
